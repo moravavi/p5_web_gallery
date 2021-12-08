@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 250px;
+}
+.botons-header {
+  background-color: #0d0d0dff;
+  border: none;
+  color: #f2f2f2ff;
+  padding: 10px;
+  border-radius: 3px;
+
+  /* COSES QUE HEM ANAT ANYADINT,anyadint estils per a la resta de la composició */
+}
+
+.container {
+  display: grid;
+  padding: 50px;
+  grid-template-columns: repeat(5, 230px);
+  justify-content: center;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.container > div > img {
+  width: 150px;
+}
+
+#artistes > .container > div > img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+#artistes > .container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#artistes > .container {
+  margin-top: 15%;
+  grid-template-columns: repeat(3, 450px);
+}
+
+h1,
+h2,
+h3 {
+  font-family: BioRhyme, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+p,
+button,
+a {
+  font-family: BioRhyme, sans-serif;
+  font-weight: 300;
+}
+
+section,
+header {
+  min-height: 100vh;
+  padding: 10px;
+  background-color: #83a8a6;
+}
+
+#portades {
+  background-color: #197278;
+}
+
+#portades > .container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px 0 #83a8a6;
+
+}
+
+#nav {
+  display: flex;
+  min-width: 100%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*
+--amaranth-red: #d9042bff;
+--ruby-red: #a60317ff;
+--barn-red: #730202ff;
+--cultured: #f2f2f2ff;
+--rich-black-fogra-39: #0d0d0dff;
+CODIS COLOR
+DISPLAY FLEX:Servix per a organitzar els elements per colmna o fila*/
